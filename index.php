@@ -13,6 +13,9 @@ fwrite($file, "Time: $time, Session: $session\n");
 // Close the file
 fclose($file);
 
+echo $time;
+echo '<hr>';
+echo $session;
 ?>
 
 <h1>Thank you my dear for that test</h1>
